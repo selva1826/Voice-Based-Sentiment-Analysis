@@ -11,16 +11,19 @@ Confidence Score: Shows the confidence level of the prediction.
 
 ## Demo
 After starting the server, the application prompts the user to speak. It then displays the detected text, predicted emotion, corresponding emoji, and confidence percentage.
+Here’s a quick demo of the Voice-Based Sentiment Analysis application in action:
+
+![Demo Video]("Media\sentiment analysis.mp4")
 
 ## Installation
 
 ### Clone the repository:
-git clone https://github.com/your-username/voice-emotion-detector.git
+   git clone
 ### Navigate to the project directory:
-cd voice-emotion-detector
+   cd voice-emotion-detector
 ### Install dependencies:
-pip install -r requirements.txt
-Ensure #### text_emotion.pkl is in the project directory.
+   pip install -r requirements.txt
+   Ensure text_emotion.pkl is in the project directory.
 
 ## Usage
 
@@ -31,13 +34,13 @@ python app.py
 2) Speak into your microphone when prompted.
 3) View the recognized text, predicted emotion, emoji, and confidence.
    
-## Code ## Explanation
+## Code Explanation
 1) Speech_to_text: Converts spoken input into text using Google’s speech recognition.
 2) predict_emotion: Uses a pre-trained model to predict the emotion of the transcribed text.
 3) Flask Route:
   Home Route (/): Displays detected text, emotion, emoji, and confidence percentage.
 
-## Model ##Information
+## Model Information
 The model text_emotion.pkl was trained on text data to classify emotions such as anger, joy, sadness, and surprise. It’s integrated with a Flask app to provide real-time feedback from voice inputs.
 
 ## Example Results
