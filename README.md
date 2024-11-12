@@ -30,7 +30,7 @@ Here’s a quick demo of the Voice-Based Sentiment Analysis application in actio
 ### Run the Flask application:
 python app.py
 ### Use the Application:
-1) Access the application at http://127.0.0.1:5000 in a web browser.
+1) Access the application at localhost in a web browser.
 2) Speak into your microphone when prompted.
 3) View the recognized text, predicted emotion, emoji, and confidence.
    
